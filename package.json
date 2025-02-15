@@ -1,0 +1,29 @@
+{
+  "name": "adultdvdempire-api",
+  "version": "1.0.0",
+  "description": "API for scraping and retrieving movie information from AdultDVDEmpire",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "linkedom": "^0.14.12" // Lightweight HTML parser for Cloudflare Workers
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0" // Cloudflare Workers CLI
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "movie",
+    "api",
+    "scraper",
+    "adultdvdempire",
+    "adultempire"
+  ],
+  "author": "QUEEN MEDUSA",
+  "license": "ISC"
+}
