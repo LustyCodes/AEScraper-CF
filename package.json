@@ -9,10 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "linkedom": "^0.14.12" // Lightweight HTML parser for Cloudflare Workers
+    "linkedom": "^0.14.12"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0" // Cloudflare Workers CLI
+    "wrangler": "^3.0.0"
   },
   "engines": {
     "node": ">=16.0.0"
