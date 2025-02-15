@@ -1,4 +1,4 @@
-name = "adultdvdempire-api"
+name = "aescraper-api"
 main = "index.js" # Entry point for your Worker
 compatibility_date = "2024-01-01"
 
