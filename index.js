@@ -1,5 +1,5 @@
 import { AdultDVDEmpireScraper } from './scraper';
-import { headers } from './headers';
+import { headers } from './utils/headers';
 
 // Initialize the scraper
 const scraper = new AdultDVDEmpireScraper();
