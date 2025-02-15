@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "wrangler dev",
-    "build:cloudflare": "wrangler build",
+    "build:cloudflare": "wrangler deploy --dry-run --outdir=dist",
     "deploy": "wrangler publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
