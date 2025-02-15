@@ -165,3 +165,8 @@ export default async function apiRoutes(request) {
         });
     }
 }
+
+// Cloudflare Workers event listener
+addEventListener('fetch', (event) => {
+    event.respondWith(handleRequest(event.request));
+});
