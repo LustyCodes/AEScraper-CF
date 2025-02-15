@@ -7,7 +7,7 @@ const scraper = new AdultDVDEmpireScraper();
 
 // Default cache configuration
 const DEFAULT_CACHE_CONFIG = {
-    duration: 7200, // 2 hours in seconds
+    duration: 43200, // 12 hours in seconds
 };
 
 // Error handler
